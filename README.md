@@ -1,3 +1,15 @@
+# EE6019: 8-bit counter worked example
+
+This is the worked example for the EE6019 Tiny Tapeout teaching slides, prepared
+from the official SKY130 Verilog template. It has not been submitted to any
+shuttle. See [the datasheet](docs/info.md) and [the cocotb test](test/test.py).
+
+The template workflows, dev container and 50 MHz flow settings are unchanged.
+After publishing, enable GitHub Pages with **Source: GitHub Actions** and check
+`test`, `gds` (precheck and gate-level test included) and `docs`.
+
+---
+
 ![](../../workflows/gds/badge.svg) ![](../../workflows/docs/badge.svg) ![](../../workflows/test/badge.svg) ![](../../workflows/fpga/badge.svg)
 
 # Tiny Tapeout Verilog Project Template
